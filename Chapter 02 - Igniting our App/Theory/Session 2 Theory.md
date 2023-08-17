@@ -19,6 +19,7 @@ It offers blazing fast performance utilizing multicore processing, and requires 
 Parcel/Webpack are type of bundlers that we use to power our application with different type functionalities and features.
 
 ### Parcel Features:
+* Created a server
 * HMR (Hot Module Replacement) - parcel keeps track of file changes via file watcher algorithm and renders the changes in the files
 * File watcher algorithm - made with C++
 * Minification
@@ -169,7 +170,7 @@ A: The `/dist` folder contains the minimized version of the source code. The cod
 
 
 ## Q: What is `browserslist`?
-A: `Browserslist` is a tool that allows specifying which browsers should be supported in your frontend app by specifying "queries" in a config file. It's used by frameworks/libraries such as React, Angular and Vue, but it's not limited to them.
+A: `Browserslist` is a tool that allows specifying which browsers should be supported in your frontend app by specifying "queries" in a config file. It's used by frameworks/libraries such as React, Angular and Vue, but it's not limited to them. It is having the array. If we write the last two version than app will work in all the last two version s of all browsers. These all things we can get from the browserlist website.
 
 ## Q: What is `Transitive Dependencies`?
 A: `Transitive Dependencies` is a concept when one module dependents upon the other modules.
