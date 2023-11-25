@@ -73,6 +73,7 @@ return (
 A: `Reconciliation` is the process through which React updates the Browser DOM and makes React work faster. React use a `diffing algorithm` so that component updates are predictable and faster. React would first calculate the difference between the real DOM and the copy of DOM (Virtual DOM) when there's an update of components.
 React stores a copy of Browser DOM which is called `Virtual DOM`. When we make changes or add data, React creates a new Virtual DOM and compares it with the previous one. Comparison is done by `Diffing Algorithm`.
 React compares the Virtual DOM with Real DOM. It finds out the changed nodes and updates only the changed nodes in Real DOM leaving the rest nodes as it is. This process is called Reconciliation.
+IMPORTANT:- React is fast because it have faster DOM manipulation and this is possible due to the diff algo. 
 
 
 ## Q: What is `React Fiber`?
@@ -113,11 +114,13 @@ function App() {
 }
 ```
 
-## Q: What is `Config Driven UI`?
+## Q: What is `Config Driven UI` IMP INTERVIEW QUESTION?
 A: `Config Driven UI` are based on the configurations of the data application receives. It is rather a good practice to use config driven UIs to make application for dynamic. 
 It is a very common & basic approach to interact with the User. It provides a generic interface to develop things which help your project scale well. It saves a lot of development time and effort.
 A typical login form, common in most of the Apps. Most of these forms also get frequent updates as the requirements increase in terms of Form Validations, dropdown options,.. or design changes.
 
+## Q: What is Optional Chaining ?
+A: Optional Chaining is ?.8
 
 ## Q: Difference between `Virtual DOM` and `Real DOM`?
 A: DOM stands for `Document Object Model`, which represents your application UI and whenever the changes are made in the application, this DOM gets updated and the user is able to visualize the changes. DOM is an interface that allows scripts to update the content, style, and structure of the document.

@@ -107,3 +107,9 @@ const Example = (props) => {
   return <div />;
 }
 ```
+## Q: IMPORTANT INTERVIEW QUES: Why can't we use a simple variable instead of the useState?
+A: It is because if we update a normal variable than react would not know that it have to update the entire DOM. Thats why we use the useState Hook.
+
+## Q: What is two way data binding?
+A: WHen we are updating something on the UI and we are able to see its result there only. For example we are typing something in the input box and it is getting displayed inside the heading text.
+
