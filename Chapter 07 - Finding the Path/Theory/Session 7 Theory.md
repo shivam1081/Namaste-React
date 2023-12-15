@@ -78,7 +78,7 @@ In `Client-side routing or rendering (CSR)`, during the first load, the webapp i
 
 ## Q: V.V.IMPORTANT INTERVIEW QUES: When useEffect is called?
 
-A: Remember the rendering takes place in this way:- load->render->api call->again render
+A: Remember the rendering takes place in this way:- `load->render->api call->again render`
 
 1. If dependency `array is not present` than the `useEffect is called at every render`.
 2. If dependenccy `array is empty` than `useEffect is called at initial render and only once`.
